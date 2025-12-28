@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LEFT CARDS -->
+  <div class="left">
+    <div class="small-card blue">
+      <h1>342</h1>
+      <p>Study Hours</p>
+    </div>
+
+    <div class="small-card">
+      <h1>7197</h1>
+      <p>Questions Solved</p>
+    </div>
+
+    <div class="small-card">
+      <h1>87%</h1>
+      <p>Weekly Goal</p>
+    </div>
+  </div>
+
+  <!-- RIGHT DASHBOARD -->
+  <div class="right">
+    <h2>Your 30-day study overview</h2>
+    <p class="desc">
+      This dashboard tracks your daily study activity and progress.
+    </p>
+
+    <div class="mid-section">
+      <div class="chart-card">
+        <h3>Study load progression</h3>
+        <canvas id="studyChart"></canvas>
+      </div>
+
+      <div class="activity-card">
+        <h3>Activity log</h3>
+        <ul>
+          <li>✔ Completed revision</li>
+          <li>✔ Solved tough problem</li>
+          <li>✔ Above average today</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-card">
+      <div>
+        <h3>Your new personalized study plan is ready</h3>
+        <p>Open it to stay on track with your goals.</p>
+      </div>
+      <button>View details →</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

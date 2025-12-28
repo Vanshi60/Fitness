@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  gap: 25px;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.small-card {
+  width: 220px;
+  height: 140px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.small-card h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.small-card p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.blue {
+  background: #3b82f6;
+  color: white;
+}
+
+/* RIGHT */
+.right {
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+  width: 900px;
+}
+
+.desc {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.mid-section {
+  display: flex;
+  gap: 20px;
+}
+
+.chart-card {
+  width: 520px;
+  height: 260px;
+  background: #f9fafb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.chart-card canvas {
+  height: 170px !important;
+}
+
+.activity-card {
+  width: 260px;
+  background: #f9fafb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.activity-card ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.activity-card li {
+  margin-bottom: 12px;
+}
+
+.bottom-card {
+  margin-top: 25px;
+  background: #f9fafb;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-card button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
